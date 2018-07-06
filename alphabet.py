@@ -3,4 +3,4 @@ bh=('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s',
 if ch in bh:
 	print "yes"
 else:
-	print "no"
+	print "No"
