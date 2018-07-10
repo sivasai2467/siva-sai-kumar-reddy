@@ -1,4 +1,4 @@
-n=int(input("Enter number:"))
+n=int(input())
 a=1
 while(n>0):
     a=a*n
