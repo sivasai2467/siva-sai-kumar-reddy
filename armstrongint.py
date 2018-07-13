@@ -9,4 +9,4 @@ for num in range(x,y):
        temp //= 10
  
    if num == sum:
-       print(num,end=" ")
+       print(num,end="")
