@@ -1,6 +1,6 @@
 x,y=map(int,input().strip().split())
  
-for num in range(x,y + 1):
+for num in range(x,y):
    sum = 0
    temp = num
    while temp > 0:
@@ -9,4 +9,4 @@ for num in range(x,y + 1):
        temp //= 10
  
    if num == sum:
-       print(num,end="")
+       print(num,end=" ")
