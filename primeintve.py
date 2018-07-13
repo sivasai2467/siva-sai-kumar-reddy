@@ -1,8 +1,8 @@
-a,b=map(int,input().strip().split())
-for num in range(a,b + 1):
-   if num > 1:
-       for i in range(2,num):
-           if (num % i) == 0:
+x,y=map(int,input().strip().split())
+for n in range(x,y + 1):
+   if n > 1:
+       for i in range(2,n):
+           if (n % i) == 0:
                break
        else:
-           print(num,end=" ")
+           print(n,end=" ")
